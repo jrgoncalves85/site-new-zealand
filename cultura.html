@@ -8,45 +8,41 @@
     <meta name="keywords" content="nova zelândia, new zealand">
     <meta name="description" content="Site sobre a Nova Zelândia desenvolvido para o Projeto Volta do Mundo do professor Júnior Gonçalves">
     <link rel="icon" href="imagens/favicon-32x32.png">
+    <link rel="stylesheet" href="estilo.css">
     <title>Volta ao Mundo - Nova Zelândia</title>
-    <style type="text/css">
-        h1 {
-            color: #000080;
-            font-size: 30px;
-            font-style: italic;
-        }
-        h2{
-            color: #000080;
-            font-size: 20px;
-        }
-        p {
-            font-size: 14px;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <h1>NOVA ZELÂNDIA</h1>
-        <nav>
+        <div class="topo">
+            <img src="imagens/bandeira-nz.jpg" alt="Bandeira" width="300">
+            <h1>Nova Zelândia</h1>
+            <h3>Conheça as maravilhas culturais, naturais e gastronômicas da Nova Zelândia</h3>
+            <p>Por Júnior Gonçalves</p>
+        </div>        
+    </header>
+    <nav>
+        <div class="menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="cultura.html">Cultura local</a></li>
                 <li><a href="turisticos.html">Pontos turísticos</a></li>
                 <li><a href="pratos.html">Pratos típicos</a></li>
-                <li><a href="cultura.html">Cultura local</a></li>
                 <li><a href="informacoes.html">Informações</a></li>
             </ul>
-        </nav>
-    </header>
-    <hr>
+        </div>
+    </nav>
     <main>
-        <h2>Cultural local</H2>
-        <p>A cultura maori na Nova Zelândia está presente no país como a parte que mais se destaca no caldeirão de etnias que forma a população local..</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/JsgK1afNGVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="conteudo">
+            <h2>Cultura local</H2>
+            <p class="texto">A cultura dos maoris é rica e muito interessante. Eles são de extrema espiritualidade, tudo presente na natureza é sagrado, representa deuses e está vivo. Uma montanha, por exemplo, pode ser irmã de outra. Tudo o que existe possui um espírito chamado mana, até mesmo objetos fabricados. Se a mana for tocada por pessoas não autorizadas, pode ir embora e trazer desgraça para uma tribo.</p>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JsgK1afNGVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>        
     </main>
-    <hr>
-    <footer>
-        <p><strong>Projeto Volta ao Mundo - Nova Zelândia</strong></p>
-        <p><em>Desenvolvido por Júnior Gonçalves</em></p>
-    </footer>    
+<footer>
+    <p><strong>Projeto Volta ao Mundo - Nova Zelândia</strong></p>
+    <p><em>Desenvolvido por Júnior Gonçalves</em></p>
+</footer> 
 </body>
 </html>

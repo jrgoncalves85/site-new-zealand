@@ -94,8 +94,35 @@ main img {
     border: 13px groove #CCC;
     margin: 10px 0 25px;
 }
+.texto {
+    float: left;
+    width: 530px; 
+    margin-right: 30px;   
+}
+.video {
+    float: left;
+    margin-bottom: 20px;
+}
+table{
+    width: 550px;
+    border-collapse: collapse;
+    border: 2px solid #AAA;
+    padding: 8px;
+}
+td {
+    border: 1px solid #ddd;
+    padding: 6px;
+}
+th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background-color: #00205B;
+    color: #FFF;
+}
 footer {
-    color: #fff;
+    clear: both;
+    color: #FFF;
     background-color: #00205B;
     padding: 35px 0 30px;
     letter-spacing: 1px;
